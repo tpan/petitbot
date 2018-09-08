@@ -1,0 +1,35 @@
+{
+  "name": "petitbot",
+  "version": "1.0.0",
+  "description": "Petit bot in nodejs using dialogflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpan/petitbot.git"
+  },
+  "keywords": [
+    "nodejs",
+    "dialogflow",
+    "chatbot",
+    "messenger",
+    "facebook"
+  ],
+  "author": "Thomas Pan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpan/petitbot/issues"
+  },
+  "homepage": "https://github.com/tpan/petitbot#readme",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.18.3",
+    "dialogflow": "^0.6.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "request": "^2.88.0",
+    "save": "^2.3.2"
+  }
+}
