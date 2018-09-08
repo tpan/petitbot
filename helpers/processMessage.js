@@ -1,7 +1,7 @@
 const dotEnv = require('dotenv').config();
 const API_AI_TOKEN = process.env.API_KEY;
 const apiAiClient = require('apiai')(API_AI_TOKEN);
-const FACEBOOK_ACCESS_TOKEN = 'EAAO68gHZCrNkBAA2sIOu5SD4zUF4LVXOEiegeuQATVzxCGh9vcvygiSyyCLB6bLSOq5PNZBjsWNkMgl8Sdrk52nxmtUKoA1rdeTZBft7gvrtLpvvXSQKnQXie6oRYwb88vZAWhPvZAMY2YOPhkkqKhzZCmfQahjkaBF9FsKlJeLgZDZD';
+const FACEBOOK_ACCESS_TOKEN = process.env.FACEBOOK_API_TOKEN;
 const request = require('request');
 const sendTextMessage = (senderId, text) => {
  request({
